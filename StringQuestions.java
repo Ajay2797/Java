@@ -13,7 +13,7 @@ class StringQuestions
 }
 class Str
 {
-	//Assignment-1
+	//Assignment-1 Check whether the string is palindrome or not.
 	void palin(){
 		StringBuffer s2 = new StringBuffer("madam") ;
 		int b = s2.length();
@@ -31,7 +31,7 @@ class Str
 			System.out.println(s2+" is a palindrome\n");
 		}
 	}
-	//Assignment-2
+	//Assignment-2 Print the index of each letter
 	void character(){
 		String s1 = "Java is a Programming Language";
 		int a = s1.length();
@@ -39,7 +39,7 @@ class Str
 			System.out.println("Character at "+ (i+1)+ " is : "+ s1.charAt(i));
 		}
 	}
-	//Assignment-3
+	//Assignment-3 Remove a paticular character from the string.
 	void remov(){
 		StringBuffer s3 = new StringBuffer("ajaykarthi");
 		System.out.println("Orginal String : "+s3);
